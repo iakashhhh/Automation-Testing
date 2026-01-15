@@ -6,9 +6,9 @@ import java.sql.Statement;
 
 public class DeleteStudents {
 	public static void main(String[] args) {
-		String url = "jdbc:mysql://localhost:3306/student_db";
+		String url = "jdbc:mysql://localhost:3306/mydb";
 		String user = "root";
-		String password = "savi2026";
+		String password = "Akash@123";
 
 		try {
 			Connection con = DriverManager.getConnection(url, user, password);
